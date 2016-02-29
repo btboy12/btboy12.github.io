@@ -1,0 +1,139 @@
+div.topbar {
+	height: 3em;
+	background-color: #EFD700;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+div.topbar .title {
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	line-height: 3em;
+	position: absolute;
+}
+
+div.topbar .myIcon {
+	height: 1em;
+	margin: 1em 1em;
+}
+
+div.topbar .myIcon.left {
+	float: left;
+}
+
+div.topbar .myIcon.right {
+	float: right;
+}
+
+div.topbar .myIcon a {
+	display: block;
+	line-height: 0;
+}
+
+div.topbar .myIcon a img {
+	height: 1em;
+
+}
+
+div.topbar+.placehold{
+	height: 3em;
+}
+
+#carousel .swiper-wrapper{
+    width:100%;
+}
+
+#carousel .swiper-slide img{
+    width:100%;
+}
+
+.subfield{
+    padding:0 .2em .5em .2em;
+    margin-top:.6em;
+    background: #FFFFFF;
+    font-size: .8em;
+}
+
+.subfield-title{
+    padding: .5em 0em .25em .25em;
+    color: #333333;
+}
+
+.subfield-title.center{
+	text-align: center;
+}
+
+.subfield-title>.myIcon{
+	height: 1em;
+}
+
+.feuilleton .block{
+    display: inline-block;
+    width:33.33%;
+    padding:.05em;
+    vertical-align:text-top;
+}
+
+#buyerChoice .block{
+	display: inline-block;
+	width:25%;
+	padding:0;
+	vertical-align:text-top;
+}
+
+#guessYou .block{
+	display: inline-block;
+	width:50%;
+	padding:2em;
+	vertical-align:text-top;
+}
+
+.block .innerBlock{
+    margin:.2em;
+}
+
+#buyerChoice .innerBlock{
+	margin:0;
+}
+
+#guessYou .innerBlock{
+	margin:0;
+}
+
+.innerBlock .descript{
+    background: #EFD700;
+    padding:.1em .8em .1em .8em;
+    color: #eeeeee;
+}
+
+.innerBlock .price{
+    overflow: hidden;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.innerBlock .title{
+    height: -webkit-calc(2em/.7);
+    overflow: hidden;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.innerBlock img{
+    width: 100%;
+}
+.subfield>table {
+	width: 100%;
+}
+
+.subfield>table td.mid>div{
+	text-align: center;
+	letter-spacing:.2em;
+}
+
+.subfield>table td.side {
+	width: 40%;
+	background-color: #EFD700;
+}
